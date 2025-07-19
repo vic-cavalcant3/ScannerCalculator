@@ -21,9 +21,10 @@ Uma calculadora simples feita em Java utilizando `Scanner` para entrada de dados
 
 1. Acesse o diretório correto
    ```bash
-   git clone https://github.com/seu-usuario/scanner-calculator
+   git clone https://github.com/vic-cavalcant3/ScannerCalculator
+   cd ScannerCalculator
    cd src
-  
+   
 2. Compile o arquivo
     ```bash
     javac Calculadora.java
