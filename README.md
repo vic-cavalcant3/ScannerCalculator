@@ -36,6 +36,6 @@ Uma calculadora simples feita em Java utilizando `Scanner` para entrada de dados
 
 ## 📌 Outros projetos de calculadora
 
-🧾 Calculadora Básica em Java - https://github.com/vic-cavalcant3/Calculator
+🧾 Calculadora Básica em Java - https://github.com/vic-cavalcant3/CalculatorBasic
 
 🖼️ Calculadora com Interface Gráfica (JFrame) - https://github.com/vic-cavalcant3/CalculatorJFrame
