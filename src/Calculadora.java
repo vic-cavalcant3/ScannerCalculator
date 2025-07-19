@@ -30,6 +30,7 @@ public class Calculadora {
 
     public void exibirMenu(){
         Scanner scanner = new Scanner(System.in);
+        System.out.println(" ");
         System.out.println("==========CALCULADORA=======");
         System.out.println("1 - Somar");
         System.out.println("2 - Subtrair");
@@ -38,25 +39,34 @@ public class Calculadora {
         System.out.println("Escolha uma opção:");
         int opcao = scanner.nextInt();
 
+        System.out.println(" ");
         System.out.println("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();
+
+        System.out.println(" ");
         System.out.println("Digite o segundo número: ");
+
         double num2 = scanner.nextDouble();
 
         switch (opcao){
             case 1:
+                System.out.println(" ");
                 System.out.println("Resultado da Soma: " + somar(num1 , num2));
                 break;
             case 2:
+                System.out.println(" ");
                 System.out.println("Resultado da Subtração: " + subtrair(num1,num2));
                 break;
             case 3:
+                System.out.println(" ");
                 System.out.println("Resultado da Multiplicação: " + multiplicar(num1,num2));
                 break;
             case 4:
+                System.out.println(" ");
                 System.out.println("Resultado da Divisão: " + dividir(num1,num2));
                 break;
             default:
+                System.out.println(" ");
                 System.out.println("Opção Invalida!!");
         } scanner.close();
     }
